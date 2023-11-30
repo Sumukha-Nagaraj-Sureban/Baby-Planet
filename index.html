@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baby</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="flex justify-around w-[100%] items-center">
+            <img src="https://baby-planet-02.myshopify.com/cdn/shop/files/logo_400x400.png?v=1631618114" alt="baby logo">
+
+            <input type="search" class="border-2 rounded-3xl w-[250px] p-2" placeholder="search">
+
+            <ul class="flex justify-around items-center m-[10px]">
+                <i class="fa-solid fa-user fa-lg m-6"></i>
+                <i class="fa-solid fa-bag-shopping fa-lg m-6"></i>
+                <i class="fa-solid fa-heart fa-lg m-6"></i>
+            </ul>
+        </nav>
+
+        <nav class="navbar bg-gray-100">
+            <ul class="flex justify-center">
+                <li class="m-8">Home</li>
+                <li class="m-8">Shop</li>
+                <li class="m-8">Health and Safety</li>
+                <li class="m-8">Baby Cloths</li>
+                <li class="m-8">Baby Toys</li>
+                <li class="m-8">Pages</li>
+            </ul>
+        </nav>
+        
+        <div id="animation-carousel" class="relative w-full" data-carousel="static">
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-[550px]">
+                    <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+                        <img src="https://baby-planet-02.myshopify.com/cdn/shop/files/slideshow_2.jpg?v=1631622707" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <div class="hidden duration-200 ease-linear" data-carousel-item>
+                        <img src="https://baby-planet-02.myshopify.com/cdn/shop/files/slideshow_1.jpg?v=1631619989" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                </div>
+                <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+        </div>
+    </header>
+
+    
+
+    <section class="mt-[30px]">
+        <div class="grid grid-rows-2 grid-flow-col gap-10 m-[100px] justify-center">
+            <div class="bg-[url('https://baby-planet-02.myshopify.com/cdn/shop/files/img1_83e6a9d2-44f2-4299-9a0c-1bbcfa6678fc_large.jpg?v=1631703642')] h-96 w-[350px] bg-cover bg-center p-24 rounded-2xl">
+                <div class="mt-[100px] ml-[-85px]">
+                    <h1 class="font-bold text-gray-700">Baby Strollers</h1>
+                    <h2 class="text-yellow-500 text-4xl">Chick me/h2>
+                    <p class="text-sm underline">Browse Products</p>
+                </div>
+            </div>
+
+            <div class="bg-[url('https://baby-planet-02.myshopify.com/cdn/shop/files/img2_a6be5881-5851-4b27-82b6-6efe94215f0a_large.jpg?v=1631704147')] h-96 w-[350px] bg-cover bg-center p-24 rounded-2xl">
+                <div class="mt-[100px] ml-[-85px]">
+                    <h1 class="font-bold text-gray-700">Baby Pacifier</h1>
+                    <h2 class="text-blue-500 text-4xl">Click me</h2>
+                    <p class="text-sm underline">Browse Products</p>
+                </div>
+            </div>
+
+            
+            <div class="bg-[url('https://media.istockphoto.com/id/174787609/photo/doctor-in-surgery-examining-baby-girl.jpg?s=612x612&w=0&k=20&c=EXtKubtKI44k8KZvuaHbHFDBe5Fr-sHCB7GkdC5Ae5Y=')] h-96 w-[350px] bg-cover bg-center p-24 rounded-2xl ">
+                <div class="mt-[100px] ml-[-85px]">
+                    <h1 class="font-bold text-gray-700">Toys and Fun</h1>
+                    <h2 class="text-pink-700 text-4xl">Click me</h2>
+                    <p class="text-sm underline">Browse Products</p>
+                </div>
+            </div>
+
+
+            <div class="bg-[url('https://baby-planet-02.myshopify.com/cdn/shop/files/img4_c25cf204-4386-4312-b14d-68a88a2978da_large.jpg?v=1631704175')] h-96 w-[350px] bg-cover bg-center p-24 rounded-2xl">
+                <div class="mt-[100px] ml-[-85px]">
+                    <h1 class="font-bold text-gray-700">Baby Strollers</h1>
+                    <h2 class="text-green-500 text-4xl">Click me</h2>
+                    <p class="text-sm underline">Browse Products</p>
+                </div>
+            </div>
+
+            <div class="bg-[url('https://baby-planet-02.myshopify.com/cdn/shop/files/img5_5433a73a-9892-458b-a1d1-f8cf03efb722_large.jpg?v=1631704190')] h-96 w-[350px] bg-cover bg-center p-24 rounded-2xl">
+                <div class="mt-[100px] ml-[-85px]">
+                    <h1 class="font-bold text-gray-700">Baby Strollers</h1>
+                    <h2 class="text-yellow-500 text-4xl">Click me</h2>
+                    <p class="text-sm underline">Browse Products</p>
+                </div>
+            </div>
+
+            <div class="bg-[url('https://img.freepik.com/premium-photo/baby-bathing-bathroom_152404-11319.jpg?w=360')] h-96 w-[350px] bg-cover bg-center p-24 rounded-2xl">
+                <div class="mt-[100px] ml-[-85px]">
+                    <h1 class="font-bold text-gray-700">Baby Strollers</h1>
+                    <h2 class="text-yellow-800 text-4xl">Click me</h2>
+                    <p class="text-sm underline">Browse Products</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section>
+        <h1 class="text-6xl text-[#5bd4c7] text-center">Baby Accessories</h1>
+
+        <div class="flex justify-around mt-10">
+            <div class="border-[1px]  w-[350px] h-[390px] rounded-lg">
+                <img class="w-[100%]  h-[300px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby31_600x.jpg?v=1539606443" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[95px] rounded-b-lg p-4">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+    
+            <div class="border-[1px] w-[350px] h-[390px] rounded-lg">
+                <img class="w-[100%]  h-[300px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby49_600x.jpg?v=1539606403" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[95px] rounded-b-lg p-4">
+                    <p class="text-center">Armour Football Shoes</p>
+                    <p class="text-center text-yellow-600">$800.00</p>
+                </div>
+            </div>
+    
+            <div class="border-[1px] w-[350px] h-[390px] rounded-lg">
+                <img class="w-[100%]  h-[300px]" src="https://baby-planet-02.myshopify.com/cdn/shop/files/3_c3f8d3dc-5f3a-4f54-809c-17c5c25ee6a0_600x.jpg?v=1696412036" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[95px] rounded-b-lg p-4">
+                    <p class="text-center">Transformers Generations</p>
+                    <p class="text-center text-yellow-600">$100.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[url('https://baby-planet-02.myshopify.com/cdn/shop/files/img5_5433a73a-9892-458b-a1d1-f8cf03efb722_large.jpg?v=1631704190')] bg-cover bg-center h-[900px] m-10 rounded-2xl">
+            <div class="flex flex-col text-left p-40">
+                <p class="text-2xl m-2">New Brand Collection</p>
+                <p class="text-6xl text-[#ef7b84] m-2">Baby Fashion</p>
+                <p class="text-2xl m-2">Flat 50% off</p>
+                <p class="bg-[#ef7b84] w-[120px] rounded-full p-4 text-white text-center">Shop Now</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="text-6xl text-[#fdef00] text-center">Baby Cloths</h1>
+        <div class="flex justify-center gap-4 m-10">
+            <p class="bg-[#5bd4c7] w-[120px] rounded-full p-4 text-white text-center">Feeding</p>
+            <p class="border-2 border-[#5bd4c7] w-[120px] rounded-full p-4 text-center">Cloths</p>
+            <p class="border-2 border-[#5bd4c7] w-[120px] rounded-full p-4 text-center">Toys</p>
+        </div>
+
+        <div class="flex gap-12 justify-center">
+            <div class="border-[1px]  w-[520px] h-[600px] rounded-lg ml-[100px]">
+                <img class="w-[100%]  h-[400px]" src="https://baby-planet-02.myshopify.com/cdn/shop/files/2_bb552852-ffdd-4e56-8346-eb76b38cadc7_600x.jpg?v=1695202178" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[135px] rounded-b-lg p-8 mt-[62px]">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+
+            <div class="border-[1px]  w-[520px] h-[600px] rounded-lg">
+                <img class="w-[100%]  h-[400px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby4_600x.jpg?v=1539606472" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[135px] rounded-b-lg p-8 mt-[62px]">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex gap-12 justify-center mt-10">
+            <div class="border-[1px]  w-[520px] h-[600px] rounded-lg ml-[100px]">
+                <img class="w-[100%]  h-[400px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby39_600x.jpg?v=1539606471" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[135px] rounded-b-lg p-8 mt-[62px]">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+
+            <div class="border-[1px]  w-[520px] h-[600px] rounded-lg">
+                <img class="w-[100%]  h-[400px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby24_600x.jpg?v=1539606470" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[135px] rounded-b-lg p-8 mt-[62px]">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-12 justify-center mt-10">
+            <div class="border-[1px]  w-[520px] h-[600px] rounded-lg ml-[100px]">
+                <img class="w-[100%]  h-[400px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby36_600x.jpg?v=1539606463" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[135px] rounded-b-lg p-8 mt-[62px]">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+
+            <div class="border-[1px]  w-[520px] h-[600px] rounded-lg">
+                <img class="w-[100%]  h-[400px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby-related21_600x.jpg?v=1539606454" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[135px] rounded-b-lg p-8 mt-[62px]">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex gap-12 justify-center mt-10">
+            <div class="border-[1px]  w-[520px] h-[600px] rounded-lg ml-[100px]">
+                <img class="w-[100%]  h-[400px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby6_600x.jpg?v=1539606446" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[135px] rounded-b-lg p-8 mt-[62px]">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+
+            <div class="border-[1px]  w-[520px] h-[600px] rounded-lg">
+                <img class="w-[100%]  h-[400px]" src="https://baby-planet-02.myshopify.com/cdn/shop/products/baby26_600x.jpg?v=1539606438" alt="image">
+                <div class="bg-[#f4f4f4] w-[100%] h-[135px] rounded-b-lg p-8 mt-[62px]">
+                    <p class="text-center">Woolen caps with strings</p>
+                    <p class="text-center text-yellow-600">$300.00</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="mt-[100px]">
+        <div class="flex flex-col items-center gap-4">
+            <h1 class="text-4xl text-[#ef7b84]">Newsletter</h1>
+
+            <p class="">Remember to stay in touch to get Season's offers and discounts!</p>
+            <input type="search" class="bg-[#fdefaa] w-[320px] p-4 rounded-2xl" placeholder="your email adddress">
+            <p class="bg-[#ef7b84] p-2 text-white rounded-2xl w-20 text-center">Submit</p>
+        </div>
+    </section>
+
+    <footer class="flex w-[100%] h-[300px] bg-[#b4f1fe] mt-10 items-center">
+        <div class="container flex justify-center">
+            <ul class="flex flex-col gap-2">
+                <li class="text-2xl">Information</li>
+                <li>Search</li>
+                <li>Consultant</li>
+                <li>Help</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+
+        <div class="container flex justify-center">
+            <ul class="flex flex-col gap-2">
+                <li class="text-2xl">Help</li>
+                <li>Search</li>
+                <li>Consultant</li>
+                <li>Help</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+
+        <div class="container flex justify-center">
+            <ul class="flex flex-col gap-2">
+                <li class="text-2xl">My Account</li>
+                <li>Search</li>
+                <li>Consultant</li>
+                <li>Help</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+
+        <div class="container flex justify-center">
+            <ul class="flex flex-col gap-2">
+                <li class="text-2xl">Contact Us</li>
+                <li>Search</li>
+                <li>Consultant</li>
+                <li>Help</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
